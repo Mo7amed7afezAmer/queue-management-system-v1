@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/queue-management-system-v1/static/css/main.d9474e49.css",
+    "main.js": "/queue-management-system-v1/static/js/main.c17b63f6.js",
+    "static/media/media-signage.jpg": "/queue-management-system-v1/static/media/media-signage.7f2c02489c6a906517cf.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/queue-management-system-v1/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/queue-management-system-v1/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/queue-management-system-v1/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/queue-management-system-v1/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/queue-management-system-v1/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/queue-management-system-v1/index.html",
+    "main.d9474e49.css.map": "/queue-management-system-v1/static/css/main.d9474e49.css.map",
+    "main.c17b63f6.js.map": "/queue-management-system-v1/static/js/main.c17b63f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9474e49.css",
+    "static/js/main.c17b63f6.js"
+  ]
+}
