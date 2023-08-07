@@ -522,13 +522,14 @@ async function getClinicForDisplay() {
 }
 async function DisplayDisplay() {
     try {
+        // GROUP BY clinic.name
         let sql = `
                 SELECT clinic.*, doctor.name AS d_name, doctor.specialist, MIN(ticket.ticket_status) AS lowerValue
                 FROM doctor
                 INNER JOIN clinic ON clinic.id = doctor.clinic_id
                 INNER JOIN ticket ON ticket.clinic_id = clinic.id
                 WHERE clinic.end_time > TIME(NOW()) AND doctor.specialist != "admin" AND ticket.ticket_status != 0
-                GROUP BY clinic.name`;
+                `;
         deleteTickets();
         // execute query on DB
         let rows = await db.execute(sql);
